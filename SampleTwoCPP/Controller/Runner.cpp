@@ -10,8 +10,12 @@
 
 int main()
 {
-    Controller app;
-    app.start();
+    //Controller app;
+    //app.start();
+    
+    //Pointer version!
+    Controller * app = new Controller();
+    app->start();
     
     return 0;
 }
